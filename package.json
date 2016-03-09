@@ -1,0 +1,20 @@
+{
+  "name": "scrape'n'store",
+  "version": "1.0.0",
+  "description": "classwork for RCB week 18",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Mongo",
+    "Express",
+    "MEAN",
+    "Scraping",
+    "MCB",
+    "Homework"
+  ],
+  "author": "CB Moate",
+  "license": "ISC"
+}
