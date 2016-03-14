@@ -7,7 +7,8 @@ var cheerio = require('cheerio');
 var mongoose = require('mongoose');
 var logger = require('morgan');
 
-var Comment = require('./comment.js');
+var Comment = require('./models/comment.js');
+var Content = require("./models/content.js");
 
 //Mongoose 
 mongoose.connect('mongodb://localhost/scraperDB');
@@ -27,7 +28,7 @@ request('', function(err, res, html){
   var $ = cheerio.load(html);
   var result = [];
 
-})
+});
 
 app.get('/'function(req, res){
 
