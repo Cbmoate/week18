@@ -49,7 +49,7 @@ app.get('/', function(req, res){
 
       //New Content
       var pageContent = new Content({
-        title : title
+        title : title,
         link : link
       });
 
